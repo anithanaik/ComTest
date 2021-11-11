@@ -438,6 +438,7 @@ namespace Commons_Automation
                 userInfo.AccessAccountMenu();
                 Thread.Sleep(1000);
                 userInfo.Logout();
+                Console.WriteLine("end1");
 
 
             }
