@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--For more information on using transformations see the web.config examples at http://go.microsoft.com/fwlink/?LinkId=214134. -->
+<RunSettings xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <TestRunParameters>
+    <Parameter name="Browser" value="chrome" />
+    <Parameter name="commonsAppUrl" value="https://commons.dev.ncu.edu" />
+    <Parameter name="SSOUserName" value="A.Abiodun9916@o365.dev.ncu.edu" />
+    <Parameter name="SSOPassword" value="Guest2011" />
+    <Parameter name="NonSSOUserName" value="mdrewadmin" />
+    <Parameter name="NonSSOPassword" value="mdrewadmin" />
+    <Parameter name="JFKSchoolUserName" value="A.Abiodun9916@o365.dev.ncu.edu" />
+    <Parameter name="JFKSchoolPassword" value="Guest2011" />
+    <Parameter name="Environment" value="DEV" />    
+    <Parameter name="GenerateLocal" value="false" />
+    <Parameter name="ErrorLog" value="\ErrorLog\" />
+    <Parameter name="ReportPath" value="\Reports\" />
+    <Parameter name="SharedErrorLog" value="\\fs1\ITShare\QA Testing\Automation\Results\DEV\Commons\ErrorLogs\" />
+    <Parameter name="SharedReportPath" value="\\fs1\ITShare\QA Testing\Automation\Results\DEV\Commons\Reports\" />
+    <Parameter name="UploadPath" value="\UploadFile\sample.pdf" />
+    <Parameter name="UploadImagePath" value="\UploadFile\NCU Image.png" />
+    <Parameter name="outLookWebMail" value="https://m.ncu.edu/owa/?ae=Folder&amp;t=IPF.Note&amp;id=PSF.LgAAAAAaRHOQqmYRzZvIAKoAL8RaAwB%2bhWG6%2fYwPSa5dKdYt%2fE3oAAAAHrtGAAAB&amp;pspid=_1552903283859_382535438" xdt:Transform="Replace" xdt:Locator="Match(name)" />
+    <Parameter name="SystemUserName" value="mpal"/>
+    <Parameter name="o365UserName" value="mpal@ncu.edu"/>
+    <Parameter name="SystemPassword" value="Wasd#1234"/>
+    <Parameter name="ncuqadb" value="Data Source=lvqasql00ls; Initial Catalog=NCU;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" />
+  </TestRunParameters>
+</RunSettings>
